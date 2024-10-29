@@ -14,3 +14,8 @@
     <li><strong>Flatten Layer</strong>: Transforms 3D outputs to 1D for dense layer input.</li>
     <li><strong>Dense Layers</strong>: Final fully connected layers to classify actions.</li>
 </ul>
+<h2>Dataset</h2>
+<p>The model is trained on the <strong>UCF50 dataset</strong>, a benchmark dataset that contains 50 action classes. The dataset is preprocessed into sequences of frames to feed into the 3D CNN layers, capturing both spatial and temporal dimensions for robust action classification.</p>
+
+<h2>Performance</h2>
+<p>The model achieves over 80% accuracy on the validation set, showcasing its effectiveness in recognizing complex actions from video data.</p>
